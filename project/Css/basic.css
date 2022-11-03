@@ -1,0 +1,31 @@
+     /* 주의 사항 <style></style>은 사용하지 않는다 */
+     /* 초기화 */
+     *{ 
+        margin: 0px; 
+        padding: 0px;
+      }
+  
+     body{
+        width: 960px;
+        margin: 0px auto;  /* 가운데 정렬 */
+     }
+     a{
+        text-decoration:none;
+        color :black;   /* #000000,  #000, rgb(0,0,0) */
+     }
+     a:visited{
+        text-decoration:none;
+        color :black;   /* #000000,  #000, rgb(0,0,0) */
+     }
+     ul{
+        margin: 0px; 
+        padding: 0px;
+     }
+     li{
+       list-style: none;
+      }
+     img{
+      border: 0px;
+      margin: 0px;
+      padding: 0px;
+     }
