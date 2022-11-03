@@ -1,0 +1,137 @@
+/* header 부분 */
+.top_content{
+    /* 위치 고정 : 반드시 부모에는  Width, height 값 설정
+                          부모의 position: relative; 로 설정 */
+    width: 960px;
+    height: 130px; /* 수정할 부분 */
+    position: relative;
+    
+    margin-bottom: 10px;
+    background-color: azure; /* 지울부분 */
+  }
+
+.logo{
+  left: 10px;
+  top : 10px;
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  
+}
+.logo>a{
+  display: inline-block;
+  overflow: hidden;
+}
+.logo h1{
+  display: inline-block;
+  width: 300px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-family: 'NanumSquareNeoExtraBold';
+  font-size: 3.5rem;
+
+}
+.top_nav{
+  top : 5px;
+  right: 10px;
+  position: absolute;
+}
+.top_nav a{
+  display: inline-block;
+  font-family: 'NanumSquareNeo';
+  padding: 5px 5px;
+  font-weight: 900;
+}
+.top_nav a:hover{
+  color: black;
+  border-radius: 5px; /* 모서리 둥글게 */
+  background-color:chartreuse;  
+}
+
+/* section 부분 */
+.section{
+ width: 960px;
+ overflow: hidden;
+ margin-bottom: 10px;
+}
+.left_aside{
+  float: left;
+  margin-right: 20px;
+  width: 180px;
+  text-align: center;  
+}
+.left_aside ul{
+  margin-top: 35px;
+  padding: 0px;
+  font-family: 'NanumSquareNeo';
+}
+.left_aside li{
+  width: 180px;
+  height: 40px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black; 
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+}
+.left_aside li>a{
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+}
+.left_aside li>a:hover{
+  background-color: azure;
+}
+
+/* 오른쪽 부분 */
+.section_right{
+  float: left;
+  width: 730px;/* 수정할 부분 */
+  margin-left: 20px;
+}
+.right_title{
+  font-size: 18px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.container{
+  border: 1px solid black;
+  width:720px; 
+  height:500px;
+  margin-bottom: 10px;
+}
+.table_main{
+  width: 710px;
+  margin-left: 5px;
+}
+.table_main tr{
+  text-align: center;
+  font-family: 'NanumSquareNeo';
+}
+.btn_writing{
+  margin-left: 650px;
+  margin-right: 20px;
+  height: 20px;
+  font-family: 'NanumSquareNeo';
+  border: 1px solid azure;
+  border-radius: 6px;
+  text-align: center;
+  background-color: azure;
+  text-decoration: none;
+}
+.btn_writing a:hover{
+  color: black;
+  background-color: chartreuse;
+}
+
+/* 맨아래 */
+footer{
+  text-align: center;
+  font-family: 'NanumSquareNeo';
+}
+.footer_nav a:hover{
+  color: blue;
+}
